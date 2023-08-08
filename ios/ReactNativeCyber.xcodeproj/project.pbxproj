@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D1EF66E8E414F7AD61A206E0 /* Pods_ReactNativeCyber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9272BB279900E8E172EA41A0 /* Pods_ReactNativeCyber.framework */; };
+		111BC795A96CBBA8EBA93A2F /* libPods-ReactNativeCyber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F223B65F1657331FEE4B6A30 /* libPods-ReactNativeCyber.a */; };
 		DF2DA2882A82704700F1A0B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA26F2A82704700F1A0B6 /* ViewController.swift */; };
 		DF2DA2892A82704700F1A0B6 /* CaptureContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2702A82704700F1A0B6 /* CaptureContext.swift */; };
 		DF2DA28A2A82704700F1A0B6 /* FlexCaptureContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2722A82704700F1A0B6 /* FlexCaptureContext.swift */; };
@@ -47,7 +47,6 @@
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libReactNativeCyber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeCyber.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3F8AEAF61A20FE5C6D60D6 /* Pods-ReactNativeCyber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCyber.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeCyber/Pods-ReactNativeCyber.release.xcconfig"; sourceTree = "<group>"; };
-		9272BB279900E8E172EA41A0 /* Pods_ReactNativeCyber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNativeCyber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5891CC2AC0600A0062D /* ReactNativeCyber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactNativeCyber.m; sourceTree = "<group>"; };
 		DF2DA26F2A82704700F1A0B6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF2DA2702A82704700F1A0B6 /* CaptureContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureContext.swift; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		DF2DA2852A82704700F1A0B6 /* FlexSDKStringValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSDKStringValidator.swift; sourceTree = "<group>"; };
 		DF2DA2862A82704700F1A0B6 /* TokenResponseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenResponseViewController.swift; sourceTree = "<group>"; };
 		DF2DA2872A82704700F1A0B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F223B65F1657331FEE4B6A30 /* libPods-ReactNativeCyber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeCyber.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4219AA9D5F18730A128624F /* Pods-ReactNativeCyber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCyber.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeCyber/Pods-ReactNativeCyber.debug.xcconfig"; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* ReactNativeCyber-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeCyber-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4FF95D6245B92E800C19C63 /* ReactNativeCyber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeCyber.swift; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1EF66E8E414F7AD61A206E0 /* Pods_ReactNativeCyber.framework in Frameworks */,
+				111BC795A96CBBA8EBA93A2F /* libPods-ReactNativeCyber.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 		0789B18F56133C21AB184735 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9272BB279900E8E172EA41A0 /* Pods_ReactNativeCyber.framework */,
+				F223B65F1657331FEE4B6A30 /* libPods-ReactNativeCyber.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
