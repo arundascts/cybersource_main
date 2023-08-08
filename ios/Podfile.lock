@@ -1,0 +1,16 @@
+PODS:
+  - flex-api-ios-sdk (1.0.0)
+
+DEPENDENCIES:
+  - flex-api-ios-sdk
+
+SPEC REPOS:
+  trunk:
+    - flex-api-ios-sdk
+
+SPEC CHECKSUMS:
+  flex-api-ios-sdk: 46d9eeff62d5b2710e2d06e1239ef912874a31e0
+
+PODFILE CHECKSUM: d5e359b38980faf761ce0a05110091759be5a781
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,6 @@
+framework module Pods_ReactNativeCyber {
+  umbrella header "Pods-ReactNativeCyber-umbrella.h"
+
+  export *
+  module * { export * }
+}
