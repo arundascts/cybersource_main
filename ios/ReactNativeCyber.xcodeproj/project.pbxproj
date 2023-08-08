@@ -8,6 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		D1EF66E8E414F7AD61A206E0 /* Pods_ReactNativeCyber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9272BB279900E8E172EA41A0 /* Pods_ReactNativeCyber.framework */; };
+		DF2DA2882A82704700F1A0B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA26F2A82704700F1A0B6 /* ViewController.swift */; };
+		DF2DA2892A82704700F1A0B6 /* CaptureContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2702A82704700F1A0B6 /* CaptureContext.swift */; };
+		DF2DA28A2A82704700F1A0B6 /* FlexCaptureContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2722A82704700F1A0B6 /* FlexCaptureContext.swift */; };
+		DF2DA28B2A82704700F1A0B6 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2732A82704700F1A0B6 /* URLSessionHTTPClient.swift */; };
+		DF2DA28C2A82704700F1A0B6 /* SessionDataMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2742A82704700F1A0B6 /* SessionDataMapper.swift */; };
+		DF2DA28D2A82704700F1A0B6 /* HTTPSignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2762A82704700F1A0B6 /* HTTPSignature.swift */; };
+		DF2DA28E2A82704700F1A0B6 /* SignatureGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2772A82704700F1A0B6 /* SignatureGenerator.swift */; };
+		DF2DA28F2A82704700F1A0B6 /* PayloadUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2782A82704700F1A0B6 /* PayloadUtility.swift */; };
+		DF2DA2902A82704700F1A0B6 /* PayloadDigest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2792A82704700F1A0B6 /* PayloadDigest.swift */; };
+		DF2DA2912A82704700F1A0B6 /* RemoteSessionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA27A2A82704700F1A0B6 /* RemoteSessionData.swift */; };
+		DF2DA2922A82704700F1A0B6 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA27B2A82704700F1A0B6 /* HTTPClient.swift */; };
+		DF2DA2932A82704700F1A0B6 /* FlexSessionCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA27C2A82704700F1A0B6 /* FlexSessionCreator.swift */; };
+		DF2DA2942A82704700F1A0B6 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA27E2A82704700F1A0B6 /* Environment.swift */; };
+		DF2DA2952A82704700F1A0B6 /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA27F2A82704700F1A0B6 /* ApiConfig.swift */; };
+		DF2DA2962A82704700F1A0B6 /* CaptureContextData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2802A82704700F1A0B6 /* CaptureContextData.swift */; };
+		DF2DA2972A82704700F1A0B6 /* SessionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2812A82704700F1A0B6 /* SessionData.swift */; };
+		DF2DA2982A82704700F1A0B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2832A82704700F1A0B6 /* Constants.swift */; };
+		DF2DA2992A82704700F1A0B6 /* FlexSDKCardFieldsValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2842A82704700F1A0B6 /* FlexSDKCardFieldsValidator.swift */; };
+		DF2DA29A2A82704700F1A0B6 /* FlexSDKStringValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2852A82704700F1A0B6 /* FlexSDKStringValidator.swift */; };
+		DF2DA29B2A82704700F1A0B6 /* TokenResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2862A82704700F1A0B6 /* TokenResponseViewController.swift */; };
+		DF2DA29C2A82704700F1A0B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2DA2872A82704700F1A0B6 /* SceneDelegate.swift */; };
 		F4FF95D7245B92E800C19C63 /* ReactNativeCyber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* ReactNativeCyber.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +49,27 @@
 		8E3F8AEAF61A20FE5C6D60D6 /* Pods-ReactNativeCyber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCyber.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeCyber/Pods-ReactNativeCyber.release.xcconfig"; sourceTree = "<group>"; };
 		9272BB279900E8E172EA41A0 /* Pods_ReactNativeCyber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNativeCyber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5891CC2AC0600A0062D /* ReactNativeCyber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactNativeCyber.m; sourceTree = "<group>"; };
+		DF2DA26F2A82704700F1A0B6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF2DA2702A82704700F1A0B6 /* CaptureContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureContext.swift; sourceTree = "<group>"; };
+		DF2DA2722A82704700F1A0B6 /* FlexCaptureContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexCaptureContext.swift; sourceTree = "<group>"; };
+		DF2DA2732A82704700F1A0B6 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
+		DF2DA2742A82704700F1A0B6 /* SessionDataMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDataMapper.swift; sourceTree = "<group>"; };
+		DF2DA2762A82704700F1A0B6 /* HTTPSignature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSignature.swift; sourceTree = "<group>"; };
+		DF2DA2772A82704700F1A0B6 /* SignatureGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureGenerator.swift; sourceTree = "<group>"; };
+		DF2DA2782A82704700F1A0B6 /* PayloadUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayloadUtility.swift; sourceTree = "<group>"; };
+		DF2DA2792A82704700F1A0B6 /* PayloadDigest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayloadDigest.swift; sourceTree = "<group>"; };
+		DF2DA27A2A82704700F1A0B6 /* RemoteSessionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteSessionData.swift; sourceTree = "<group>"; };
+		DF2DA27B2A82704700F1A0B6 /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		DF2DA27C2A82704700F1A0B6 /* FlexSessionCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSessionCreator.swift; sourceTree = "<group>"; };
+		DF2DA27E2A82704700F1A0B6 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		DF2DA27F2A82704700F1A0B6 /* ApiConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
+		DF2DA2802A82704700F1A0B6 /* CaptureContextData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureContextData.swift; sourceTree = "<group>"; };
+		DF2DA2812A82704700F1A0B6 /* SessionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionData.swift; sourceTree = "<group>"; };
+		DF2DA2832A82704700F1A0B6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DF2DA2842A82704700F1A0B6 /* FlexSDKCardFieldsValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSDKCardFieldsValidator.swift; sourceTree = "<group>"; };
+		DF2DA2852A82704700F1A0B6 /* FlexSDKStringValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSDKStringValidator.swift; sourceTree = "<group>"; };
+		DF2DA2862A82704700F1A0B6 /* TokenResponseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenResponseViewController.swift; sourceTree = "<group>"; };
+		DF2DA2872A82704700F1A0B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F4219AA9D5F18730A128624F /* Pods-ReactNativeCyber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCyber.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeCyber/Pods-ReactNativeCyber.debug.xcconfig"; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* ReactNativeCyber-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeCyber-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4FF95D6245B92E800C19C63 /* ReactNativeCyber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeCyber.swift; sourceTree = "<group>"; };
@@ -73,6 +115,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				DF2DA26E2A82704700F1A0B6 /* Cybersource */,
 				F4FF95D6245B92E800C19C63 /* ReactNativeCyber.swift */,
 				B3E7B5891CC2AC0600A0062D /* ReactNativeCyber.m */,
 				F4FF95D5245B92E700C19C63 /* ReactNativeCyber-Bridging-Header.h */,
@@ -80,6 +123,66 @@
 				3978770C631B67B4B2B32669 /* Pods */,
 				0789B18F56133C21AB184735 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		DF2DA26E2A82704700F1A0B6 /* Cybersource */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DA26F2A82704700F1A0B6 /* ViewController.swift */,
+				DF2DA2702A82704700F1A0B6 /* CaptureContext.swift */,
+				DF2DA2712A82704700F1A0B6 /* Capture Context */,
+				DF2DA2822A82704700F1A0B6 /* Utilities */,
+				DF2DA2862A82704700F1A0B6 /* TokenResponseViewController.swift */,
+				DF2DA2872A82704700F1A0B6 /* SceneDelegate.swift */,
+			);
+			path = Cybersource;
+			sourceTree = "<group>";
+		};
+		DF2DA2712A82704700F1A0B6 /* Capture Context */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DA2722A82704700F1A0B6 /* FlexCaptureContext.swift */,
+				DF2DA2732A82704700F1A0B6 /* URLSessionHTTPClient.swift */,
+				DF2DA2742A82704700F1A0B6 /* SessionDataMapper.swift */,
+				DF2DA2752A82704700F1A0B6 /* HTTPSignature */,
+				DF2DA27A2A82704700F1A0B6 /* RemoteSessionData.swift */,
+				DF2DA27B2A82704700F1A0B6 /* HTTPClient.swift */,
+				DF2DA27C2A82704700F1A0B6 /* FlexSessionCreator.swift */,
+				DF2DA27D2A82704700F1A0B6 /* DataModel */,
+				DF2DA2812A82704700F1A0B6 /* SessionData.swift */,
+			);
+			path = "Capture Context";
+			sourceTree = "<group>";
+		};
+		DF2DA2752A82704700F1A0B6 /* HTTPSignature */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DA2762A82704700F1A0B6 /* HTTPSignature.swift */,
+				DF2DA2772A82704700F1A0B6 /* SignatureGenerator.swift */,
+				DF2DA2782A82704700F1A0B6 /* PayloadUtility.swift */,
+				DF2DA2792A82704700F1A0B6 /* PayloadDigest.swift */,
+			);
+			path = HTTPSignature;
+			sourceTree = "<group>";
+		};
+		DF2DA27D2A82704700F1A0B6 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DA27E2A82704700F1A0B6 /* Environment.swift */,
+				DF2DA27F2A82704700F1A0B6 /* ApiConfig.swift */,
+				DF2DA2802A82704700F1A0B6 /* CaptureContextData.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		DF2DA2822A82704700F1A0B6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DA2832A82704700F1A0B6 /* Constants.swift */,
+				DF2DA2842A82704700F1A0B6 /* FlexSDKCardFieldsValidator.swift */,
+				DF2DA2852A82704700F1A0B6 /* FlexSDKStringValidator.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +268,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF2DA2882A82704700F1A0B6 /* ViewController.swift in Sources */,
+				DF2DA28F2A82704700F1A0B6 /* PayloadUtility.swift in Sources */,
+				DF2DA2922A82704700F1A0B6 /* HTTPClient.swift in Sources */,
+				DF2DA2942A82704700F1A0B6 /* Environment.swift in Sources */,
+				DF2DA2972A82704700F1A0B6 /* SessionData.swift in Sources */,
+				DF2DA2902A82704700F1A0B6 /* PayloadDigest.swift in Sources */,
+				DF2DA2952A82704700F1A0B6 /* ApiConfig.swift in Sources */,
+				DF2DA29C2A82704700F1A0B6 /* SceneDelegate.swift in Sources */,
+				DF2DA2962A82704700F1A0B6 /* CaptureContextData.swift in Sources */,
+				DF2DA28B2A82704700F1A0B6 /* URLSessionHTTPClient.swift in Sources */,
+				DF2DA29A2A82704700F1A0B6 /* FlexSDKStringValidator.swift in Sources */,
+				DF2DA2892A82704700F1A0B6 /* CaptureContext.swift in Sources */,
+				DF2DA28D2A82704700F1A0B6 /* HTTPSignature.swift in Sources */,
+				DF2DA2992A82704700F1A0B6 /* FlexSDKCardFieldsValidator.swift in Sources */,
+				DF2DA28E2A82704700F1A0B6 /* SignatureGenerator.swift in Sources */,
+				DF2DA28C2A82704700F1A0B6 /* SessionDataMapper.swift in Sources */,
+				DF2DA2932A82704700F1A0B6 /* FlexSessionCreator.swift in Sources */,
 				F4FF95D7245B92E800C19C63 /* ReactNativeCyber.swift in Sources */,
+				DF2DA29B2A82704700F1A0B6 /* TokenResponseViewController.swift in Sources */,
+				DF2DA28A2A82704700F1A0B6 /* FlexCaptureContext.swift in Sources */,
+				DF2DA2912A82704700F1A0B6 /* RemoteSessionData.swift in Sources */,
+				DF2DA2982A82704700F1A0B6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
